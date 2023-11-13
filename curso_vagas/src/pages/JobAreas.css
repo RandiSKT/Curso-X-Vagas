@@ -1,0 +1,41 @@
+/* src/pages/JobAreas.css */
+/* src/pages/JobAreas.css */
+.job-areas-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-bottom: 100px; /* Adicione margem inferior suficiente para acomodar o Footer */
+  }
+  
+  
+  .job-area {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .job-area-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .arrow-up {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-down {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .job-area-description {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Ajuste os estilos conforme necessário */
+  

@@ -1,0 +1,44 @@
+/* src/pages/JobListings.css */
+.job-listings-content {
+    text-align: center;
+    max-width: 1200px; /* Ajuste a largura máxima conforme necessário */
+    margin: 5px auto;
+    margin-bottom: 100px;
+  }
+  
+  .job-listings-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .job-listing {
+    width: 350px; /* Ajuste a largura conforme necessário */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 5px 2px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .requirements {
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+  }
+  
+  .requirement {
+    background-color: #eee;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .requirement.completed {
+    background-color: #4caf50; /* Verde para requisitos atendidos */
+    color: #fff;
+  }
+  
+  /* Ajuste os estilos conforme necessário */
+  
