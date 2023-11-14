@@ -20,6 +20,14 @@
   
   .navbar li {
     font-size: 16px;
+    background-color: gray;
+    padding: 5px;
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+  }
+  
+  .navbar li:hover,
+  .navbar li:active {
+    background-color: darkgray; /* Altera a cor de fundo para um tom mais escuro */
   }
   
   .navbar a {

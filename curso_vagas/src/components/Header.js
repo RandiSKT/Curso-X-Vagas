@@ -15,9 +15,9 @@ const Header = () => {
       </div>
       <nav className="navbar">
         <ul>
-          <li className={location.pathname === '/' ? 'active' : ''}><Link to="/">Upload CV</Link></li>
-          <li className={location.pathname === '/job-areas' ? 'active' : ''}><Link to="/job-areas">Job Areas</Link></li>
-          <li className={location.pathname === '/job-listings' ? 'active' : ''}><Link to="/job-listings">Job Listings</Link></li>
+          <li className={location.pathname === '/' ? 'active' : ''}><Link to="/">Controle Curricular</Link></li>
+          <li className={location.pathname === '/job-areas' ? 'active' : ''}><Link to="/job-areas">Areas de Trabalho</Link></li>
+          <li className={location.pathname === '/job-listings' ? 'active' : ''}><Link to="/job-listings">Vagas Disponiveis</Link></li>
         </ul>
       </nav>
     </header>
